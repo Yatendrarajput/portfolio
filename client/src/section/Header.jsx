@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll"; // For smooth scrolling to sections
+import { GiHamburgerMenu } from "react-icons/gi"; // Importing the hamburger icon
 
 const Header = () => {
     const [isNavOpen, setIsNavOpen] = useState(false); // For responsive nav toggle
@@ -39,18 +40,16 @@ const Header = () => {
 
                 {/* Hamburger for Mobile */}
                 <div
-                    className="lg:hidden flex items-center cursor-pointer"
+                    className="lg:hidden flex items-center cursor-pointer text-white text-2xl"
                     onClick={() => setIsNavOpen((prev) => !prev)}
                 >
-                    <div className="w-6 h-1 bg-white mb-2"></div>
-                    <div className="w-6 h-1 bg-white mb-2"></div>
-                    <div className="w-6 h-1 bg-white"></div>
+                    <GiHamburgerMenu />
                 </div>
             </div>
 
             {/* Mobile Navigation */}
             {isNavOpen && (
-                <div className="lg:hidden bg-gray-800 text-white py-4 px-8 absolute top-0 left-0 w-full z-50">
+                <div className="lg:hidden bg-[#202020] text-white py-4 px-8 absolute top-0 left-0 w-full z-50">
                     <nav className="flex flex-col items-center gap-6">
                         <Link
                             to="hero"
