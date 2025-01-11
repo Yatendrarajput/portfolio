@@ -62,17 +62,7 @@ const Header = () => {
                         >
                             Home
                         </Link>
-                        <Link
-                            to="projects"
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            activeClass="text-themered"
-                            className="hover:text-themered"
-                            onClick={() => setIsNavOpen(false)}
-                        >
-                            Projects
-                        </Link>
+
                         <Link
                             to="services"
                             smooth={true}
@@ -94,6 +84,17 @@ const Header = () => {
                             onClick={() => setIsNavOpen(false)}
                         >
                             Technology
+                        </Link>
+                        <Link
+                            to="projects"
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            activeClass="text-themered"
+                            className="hover:text-themered"
+                            onClick={() => setIsNavOpen(false)}
+                        >
+                            Projects
                         </Link>
                         <Link
                             to="footer"
