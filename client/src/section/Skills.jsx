@@ -11,6 +11,14 @@ import tail from "../assets/tail.png";
 import express from "../assets/express.png";
 import mongo from "../assets/mongo.png";
 import html from "../assets/html.png";
+import python from "../assets/python.png"
+import css from "../assets/css.png"
+import github from "../assets/github.png"
+import aws from "../assets/aws.png"
+import mysql from "../assets/mysql.png"
+import git from "../assets/git.png"
+import docker from "../assets/docker.png"
+import firebase from "../assets/firebase.png"
 // import java from "../assets/java.png";
 // import python from "../assets/python.png";
 // import angular from "../assets/angular.png";
@@ -55,33 +63,61 @@ const Skills = () => {
                 </div>
                 {/* Skill Card 2 */}
                 <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
-                    <img src={node} alt="Node.js" className="w-[60px] h-[60px] object-contain" />
+                    <img src={javascript} alt="Node.js" className="w-[60px] h-[60px] object-contain" />
                 </div>
                 {/* Skill Card 3 */}
                 <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
-                    <img src={react} alt="React" className="w-[60px] h-[60px] object-contain" />
+                    <img src={python} alt="Node.js" className="w-[60px] h-[60px] object-contain" />
                 </div>
+
                 {/* Skill Card 4 */}
                 <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
-                    <img src={javascript} alt="React" className="w-[60px] h-[60px] object-contain" />
+                    <img src={react} alt="React" className="w-[60px] h-[60px] object-contain" />
                 </div>
                 {/* Skill Card 5 */}
                 <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
-                    <img src={tail} alt="React" className="w-[60px] h-[60px] object-contain" />
+                    <img src={node} alt="React" className="w-[60px] h-[60px] object-contain" />
                 </div>
                 {/* Skill Card 6 */}
                 <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
-                    <img src={mongo} alt="React" className="w-[60px] h-[60px] object-contain" />
+                    <img src={express} alt="React" className="w-[60px] h-[60px] object-contain" />
                 </div>
                 {/* Skill Card 7 */}
                 <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
-                    <img src={express} alt="React" className="w-[60px] h-[60px] object-contain" />
+                    <img src={mongo} alt="React" className="w-[60px] h-[60px] object-contain" />
                 </div>
                 {/* Skill Card 8 */}
                 <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
+                    <img src={tail} alt="React" className="w-[60px] h-[60px] object-contain" />
+                </div>
+                {/* Skill Card 9 */}
+                <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
                     <img src={html} alt="React" className="w-[60px] h-[60px] object-contain" />
                 </div>
-
+                {/* Skill Card 10 */}
+                <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
+                    <img src={css} alt="React" className="w-[60px] h-[60px] object-contain" />
+                </div>
+                {/* Skill Card 11 */}
+                <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
+                    <img src={github} alt="React" className="w-[60px] h-[60px] object-contain" />
+                </div>
+                {/* Skill Card 12 */}
+                <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
+                    <img src={git} alt="React" className="w-[60px] h-[60px] object-contain" />
+                </div>
+                <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
+                    <img src={mysql} alt="React" className="w-[60px] h-[60px] object-contain" />
+                </div>
+                <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
+                    <img src={aws} alt="React" className="w-[60px] h-[60px] object-contain" />
+                </div>
+                <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
+                    <img src={docker} alt="React" className="w-[60px] h-[60px] object-contain" />
+                </div>
+                <div data-aos="zoom-in" className="bg-gray-800 p-6 rounded-lg flex justify-center items-center hover:scale-105 transition-all">
+                    <img src={firebase} alt="React" className="w-[60px] h-[60px] object-contain" />
+                </div>
 
 
             </div>
